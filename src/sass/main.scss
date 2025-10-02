@@ -128,8 +128,13 @@ pre {
     justify-items: space-around;
   }
   .res-render {
+    @include designed-box;
     & li {
       font-size: large;
+    }
+    & history-link {
+      color: whitesmoke;
+      background-color: rgb(169, 220, 247);
     }
   }
   .cf-fiche {

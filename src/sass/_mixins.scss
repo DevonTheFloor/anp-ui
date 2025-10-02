@@ -11,3 +11,14 @@
   font-weight: bold;
   color: $primeBlue;
 }
+
+@mixin designed-box {
+  border-radius: 20px;
+  /* Dégradé pastel bleu → blanc */
+  background: linear-gradient(to bottom left, #cfdfff, #ffffff);
+  /* Effet Neumorphism : ombres opposées */
+  box-shadow: 
+    -8px -8px 16px #ffffff,       /* lumière venant du haut-gauche */
+    8px 8px 16px rgba(163,177,198,0.6); /* ombre douce en bas-droite */
+  color: #333;
+}
