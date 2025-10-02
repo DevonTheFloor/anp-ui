@@ -1,0 +1,328 @@
+
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  background-color: rgba(246, 244, 244, 0.596);
+}
+pre {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+  body {
+    margin: 0px;
+  }
+
+  h1,h2,h3 {
+    color: $primeBlue;
+  }
+  ol {
+    list-style: none;
+  }
+  form label {
+    display: inline-block;
+    margin: 1%;
+  }
+  fieldset {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  details:hover {
+    cursor: pointer;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  section {
+    width:100%;
+  }
+  // image pub
+  #sonoIndex {
+    background-image: url('/src/assets/6x6sono.jpeg');
+  }
+  #bikeApprent {
+    background-image: url('/src/assets/action-bike1.jpg');
+  }
+  #sonoApprent {
+    background-image: url('/src/assets/6x6sono.jpeg');
+  }
+  #artPat {
+    background-image: url('/src/assets/artatoo.jpg');
+  }
+  #devPat {
+    background-image: url('/src/assets/maw.jpg');
+  }
+  #devIndex {
+    background-image: url('/src/assets/maw.jpg');
+  } 
+  #sonoResult {
+    background-image: url('/src/assets/6x6sono.jpeg');
+  }
+  #sonoRgpd {
+    background-image: url('/src/assets/6x6sono.jpeg');
+  }
+  #devRgpd {
+    background-image: url('/src/assets/maw.jpg');
+  }
+  #sonoFicheApp {
+    background-image: url('/src/assets/6x6sono.jpeg');
+  }
+  #devFichePat {
+    background-image: url('/src/assets/maw.jpg');
+  }
+  #artFichePat {
+    background-image: url('/src/assets/artatoo.jpg');
+  }
+  #bikeFicheApp {
+    background-image: url('/src/assets/action-bike1.jpg');
+  }
+  #devResult {
+    background-image: url('/src/assets/maw.jpg');
+  }
+  //*************************
+  #select, #sel-metier {
+    margin: 2%;
+  }
+  #flash-text {
+    @include flash-text;
+    font-size: large;
+    line-height: 1;
+  }
+
+  textarea {
+    vertical-align: baseline;
+  }
+  #reset-form {
+    border: 2px solid $primeBlue;
+    border-radius: 5px;
+    width: 40%;
+    margin: 8% auto;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .prez {
+    width: 40%;
+    & label {
+      width: 90%;
+    }
+    & #presentation {
+      width: 90%;
+    }
+  }
+  .tags {
+    width: 50%;
+    margin: 3% auto;
+  }
+  .hili {
+    font-size: 1.5em;
+    border: 1px solid blue;
+    padding: 1%;
+    margin: 2%;
+    background-color: $bkgrdBlue;
+    justify-items: space-around;
+  }
+  .res-render {
+    & li {
+      font-size: large;
+    }
+  }
+  .cf-fiche {
+    margin-top: 3%;
+    border: 2px solid blue;
+    border-radius: 4px;
+    padding: 1.5%;
+    color: blue;
+    box-shadow: 1px 2px 3px grey;
+
+    &:active {
+      box-shadow: 0px 0px 0px grey;
+      color: white;
+      background-color: $primeBlue;
+    }
+  }
+  .pub-encart {
+    top: 50px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding: 1%;
+    & img {
+      padding: 8%;
+    }
+  }
+  .btn-fiche {
+    margin: 3%;
+  }
+  .user-card {
+    border: 2px solid $primeBlue;
+    padding: 5%;
+    border-radius: 10px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    box-shadow: 7px 7px 7px 10px rgba(95, 95, 109, 0.488);
+    & .ti-fiche {
+      color: white;
+      padding: 4px;
+      background-color: $primeBlue;
+    }
+    & .parag {
+      padding: 2%;
+    }
+    & .t-lbl {
+      color: $primeBlue;
+      font-weight: bolder;
+      text-align: left;
+      margin: 0px;
+      margin:0px;
+    }
+  }
+  .li-nav {
+    @include linav;
+  }
+  
+  .main-flow {
+    min-width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .pic-user {
+    width: 50%;
+    margin: 3%;
+  }
+  .localisation {
+    margin-left: 2%;
+  }
+  .send-form {
+    margin: 2%;
+  }
+  .errMsg {
+    color: red;
+  }
+  .prez {
+    width: 100%;
+  }
+  .prez textarea {
+    width: 60%;
+  }
+  .main-content {
+    display: flex;
+    flex-direction: row;
+    & a {
+      display: block;
+      width: 15%;
+    }
+  }
+  .action-btn {
+    color: white;
+    background-color: $primeBlue;
+    padding: 5px;
+    border-radius: 5px;
+    &:disabled {
+      background-color: rgb(196, 196, 196);
+    }
+    &:active {
+      background-color: $txtShaBlue;
+    }
+  }
+  .res-render {
+    & li {
+      margin: 1%;
+    }
+  }
+  
+  @media screen and (max-width: 800px){
+    // images pub
+    #sonoIndex {
+      background-image: url('/src/assets/6x6sonoMobile.png');
+    }
+    #sonoApprent {
+      background-image: url('/src/assets/6x6sonoMobile.png');
+    }
+    #bikeApprent {
+      background-image: url('/src/assets/bikeMobile.jpg');
+    }
+    #artPat {
+      background-image: url('/src/assets/artatoo-mobile.jpg');
+    }
+    #devPat {
+      background-image: url('/src/assets/maw-mobile.jpg');
+    }
+    #devIndex {
+      background-image: url('/src/assets/maw-mobile.jpg');
+    } 
+    #sonoResult {
+      background-image: url('/src/assets/6x6sonoMobile.png');
+    }
+    #sonoRgpd {
+      background-image: url('/src/assets/6x6sonoMobile.png');
+    }
+    #devRgpd {
+      background-image: url('/src/assets/maw-mobile.jpg');
+    }
+    #sonoFicheApp {
+      background-image: url('/src/assets/6x6sonoMobile.png');
+    }
+    #devFichePat {
+      background-image: url('/src/assets/maw-mobile.jpg');
+    }
+    #artFichePat {
+      background-image: url('/src/assets/artatoo-mobile.jpg');
+    }
+    #bikeFicheApp {
+      background-image: url('/src/assets/bikeMobile.jpg');
+    }
+    #devResult {
+      background-image: url('/src/assets/maw-mobile.jpg');
+    }
+    //*************************
+    .main-flow {
+      padding: 3%;
+    }
+    .div-sup-btn {
+      width: 75%;
+      margin: 5% auto;
+      box-shadow: 2px 2px 2px grey;
+    }
+    .user-card {
+      width: 75%;
+      margin: auto;
+      & pre {
+        white-space: pre-wrap;
+        padding: 2%;
+      }
+    }
+    form label {
+      display: block;
+      margin: 3%;
+    }
+    .main-content {
+      flex-direction: column;
+    }
+    .pub-encart {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 1%;
+      & img {
+        padding: 10%;
+        width: 55%;
+        margin: auto;
+      }
+    }
+    @media screen and (max-width: 400px) {
+      #branche {
+        width: 80%;
+      }
+      #cp {
+        width: 80%;
+      }
+    }
+  }

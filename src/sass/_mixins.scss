@@ -1,0 +1,13 @@
+
+@mixin flash-text {
+  color: $primeBlue ;
+  box-shadow: 2px 2px 2px $shadowOrange;
+  border-radius: 5px;
+  padding: 2%;
+  background-color: whitesmoke;
+}
+
+@mixin linav {
+  font-weight: bold;
+  color: $primeBlue;
+}

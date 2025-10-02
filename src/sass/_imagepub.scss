@@ -1,0 +1,30 @@
+#sonoIndex {
+  background-image: url('/src/assets/6x6sono.jpeg');
+}
+#bikeApprent {
+  background-image: url('/src/assets/action-bike1.jpg');
+}
+#sonoApprent {
+  background-image: url('/src/assets/6x6sono.jpeg');
+}
+#artPat {
+  background-image: url('/src/assets/artatoo.jpg');
+}
+@media screen and (max-width: 800px){
+  // images pub
+  #sonoIndex {
+    background-image: url('/src/assets/6x6sonoMobile.png');
+  }
+  #sonoApprent {
+    background-image: url('/src/assets/6x6sonoMobile.png');
+  }
+  #bikeApprent {
+    background-image: url('/src/assets/bikeMobile.jpg');
+  }
+  #artPat {
+    background-image: url('/src/assets/artatoo-mobile.jpg');
+  }
+  #devIndex {
+    background-image: url('/src/assets/maw-mobile.jpg');
+  } 
+}

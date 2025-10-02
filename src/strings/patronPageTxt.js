@@ -1,0 +1,2 @@
+export const intro = `<h2>Cher employeur</h2>
+<p>Vous cherchez un apprenti pourt l'année prochaine, vous êtes au bon endroit.<br>Avant toutes chose pensez à vous inscrire afin que les apprentis qui vous cherche puissent... vous trouver! Profitez en , c'est gratuit.</p><p>Tout autant que la consultation de la base de données des apprentis. Et si vous souhaitez que ça le reste, faites connaitre le site!</p>`

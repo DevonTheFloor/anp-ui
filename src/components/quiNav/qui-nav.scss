@@ -1,0 +1,37 @@
+#qui-nav {
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin: 2%;
+  background-color: $bkgrdBlue;
+}
+.listol {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  & .li-nav {
+    text-decoration: none;
+    font-size: 1.5em;
+    @include linav;
+  }
+}
+@media screen and (max-width: 610px){
+
+  .listol {
+    border: none;
+    flex-direction: column;
+    padding: 0px;
+    & li {
+      padding: 4%;
+    } & a  {
+      border: 1px solid blue;
+      background-color: $bkgrdBlue;
+      border-radius: 5px;
+      padding: 2%;
+      display: block;
+      width: 100%;
+      margin: auto;
+    }
+  }
+
+}

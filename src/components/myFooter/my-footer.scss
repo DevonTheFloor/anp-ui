@@ -1,0 +1,17 @@
+my-footer {
+  & footer {
+    border: 1px solid blue;
+    margin-top: 3%;
+    background-color: $bkgrdBlue;
+    color: $primeBlue;
+    & nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }  
+
+    & ol {
+      padding: 0px;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<style>
+	body {
+  background: #e0e5ec; /* Fond clair, gris bleuté */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-neumo {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+
+  /* Dégradé pastel bleu → blanc */
+  background: linear-gradient(to bottom left, #cfdfff, #ffffff);
+
+  /* Effet Neumorphism : ombres opposées */
+  box-shadow: 
+    -8px -8px 16px #ffffff,       /* lumière venant du haut-gauche */
+    8px 8px 16px rgba(163,177,198,0.6); /* ombre douce en bas-droite */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+
+</style>
+<body>
+	<div class="card-neumo">
+  Contenu neumorphism
+</div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    background-color: rgba(246, 244, 244, 0.596);
+  }
+  fieldset {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  details:hover {
+    cursor: pointer;
+  }
+  #select, #sel-metier {
+    margin: 2%;
+  }
+  
+  /*my-inscript-form {
+    display: block;
+  }*/
+  
+  my-input {
+    display: inline-block;
+    margin: 2%;
+    margin-top: 2%;
+  }
+  
+  textarea {
+    vertical-align: baseline;
+  }
+  .pub-encart {
+    top: 50px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 1%;
+    padding: 1%;
+  
+  }
+  .pub {
+    display: block;
+    margin: 0px;
+    margin-bottom: 5%;
+    padding: 0px;
+    width: 100%;
+    border: 2px solid yellow;
+  }
+  .main-content a {
+    display: block;
+    width: 15%;
+  }
+  .main-flow {
+    min-width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .pic-user {
+    width: 50%;
+    margin: 3%;
+  }
+  .localisation {
+    margin-left: 2%;
+  }
+  .send-form {
+    margin: 2%;
+  }
+  .errMsg {
+    color: red;
+  }
+  .prez {
+    width: 100%;
+  }
+  .prez textarea {
+    width: 60%;
+  }
+  .main-content {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .pub img {
+    width: 50%;
+  }

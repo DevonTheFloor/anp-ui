@@ -1,0 +1,19 @@
+print-results {
+  display: block;
+  border-radius: 4px;
+  width: 95%;
+  min-height: 400px;
+  margin: auto;
+  & ol {
+    padding: 2%;
+    border: 1px solid $primeBlue;
+    padding-left: 2%;
+  } & .btn-fiche {
+    margin: 3%;
+  }
+  @media screen and (max-width: 400) {
+    & ol {
+      width: 60%;
+    }
+  }
+}

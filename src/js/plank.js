@@ -1,0 +1,1 @@
+export const baseUrlApi = import.meta.env.VITE_ANP_API_URL;

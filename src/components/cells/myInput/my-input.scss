@@ -1,0 +1,20 @@
+my-input {
+  margin: 1%;
+  
+}
+@media screen and (max-width: 1000px){
+  my-input {
+    & label {
+      display: inline-block;
+      margin: 3%;
+    }
+  }
+}
+@media screen and (max-width: 800px){
+  my-input {
+    & label {
+      display: block;
+      margin: 1%;
+    }
+  }
+}
