@@ -1,5 +1,6 @@
 my-footer {
   & footer {
+    @include designed-box;
     border: 1px solid blue;
     margin-top: 3%;
     background-color: $bkgrdBlue;

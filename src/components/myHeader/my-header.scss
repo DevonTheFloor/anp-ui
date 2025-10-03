@@ -1,19 +1,10 @@
 my-header {
   max-width: 100%;
   & header {
-    height: 1000px;
+    height: 800px;
     width: 100%;
     position: relative;
     display: inline-block;
-    /*& .parallax {
-      
-      height: 100vh;
-      //background-image: url('https://maville.com/photosmvi/2017/09/12/P1D3278784G.jpg');
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }*/
     & h1 {
       
       width: 100%;
@@ -52,7 +43,7 @@ my-header {
   }
   @media screen and (max-width: 1250px) {
     & header {
-      max-height: 770px;
+      max-height: 600px;
       & h1 {
         font-size: 3.5em;
         top: 40%
@@ -89,29 +80,29 @@ my-header {
       max-height: 450px;
  
   }
-}
-@media screen and (max-width: 600px) {
-  & header {
-    max-height: 410px;
   }
-}
-@media screen and (max-width: 500px) {
-  & header {
-    max-height: 340px;
-  }
-}
-@media screen and (max-width: 435px) {
-  & header {
-    & h1 {
-      font-size: 2em;
-      top: 30%
-    }
-    & h2 {
-      font-size: 1em;
-      top: 50%;
+  @media screen and (max-width: 600px) {
+    & header {
+      max-height: 410px;
     }
   }
-}
+  @media screen and (max-width: 500px) {
+    & header {
+      max-height: 340px;
+    }
+  }
+  @media screen and (max-width: 435px) {
+    & header {
+      & h1 {
+        font-size: 2em;
+        top: 30%
+      }
+      & h2 {
+        font-size: 1em;
+        top: 50%;
+      }
+    }
+  }
   @media screen and (max-width: 360px) {
     & header {
       max-height: 290px;

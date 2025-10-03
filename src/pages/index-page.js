@@ -43,7 +43,7 @@ export default class IndexPage extends HTMLElement {
           <section class="main-content">
             <encart-pub
               imgId="sonoIndex"
-              site="http://6x6sono.free.fr"
+              site="https://6x6sono-event.fr"
             ></encart-pub>
             <section class="main-flow">
               <article-presentation></article-presentation>

@@ -44,7 +44,7 @@ export default class ApprentiPage extends HTMLElement {
         <section class="main-content">
         <encart-pub
           imgId="sonoApprent"
-          site="http://66sono.free.fr"
+          site="https://6x6sono-event.fr"
         ></encart-pub>
           <article class="main-flow">
             <section>

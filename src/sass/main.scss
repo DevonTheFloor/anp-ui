@@ -166,6 +166,7 @@ pre {
     margin: 3%;
   }
   .user-card {
+    @include designed-box;
     border: 2px solid $primeBlue;
     padding: 5%;
     border-radius: 10px;

@@ -1,10 +1,12 @@
 #qui-nav {
+  @include designed-box;
   border: 1px solid blue;
   border-radius: 5px;
   margin: 2%;
   background-color: $bkgrdBlue;
 }
 .listol {
+  padding-left: 0px;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -20,9 +22,8 @@
   .listol {
     border: none;
     flex-direction: column;
-    padding: 0px;
     & li {
-      padding: 4%;
+      padding: 0%;
     } & a  {
       border: 1px solid blue;
       background-color: $bkgrdBlue;
@@ -33,5 +34,4 @@
       margin: auto;
     }
   }
-
 }

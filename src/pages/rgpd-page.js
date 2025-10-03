@@ -44,7 +44,7 @@ export default class RgpdPage extends HTMLElement {
           <section class="main-content">
             <encart-pub
               imgId="sonoRgpd"
-              site="http://6x6sono.free.fr"
+              site="https://6x6sono-event.fr"
             ></encart-pub>
             <article class="main-flow">
               <section>
